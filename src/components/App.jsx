@@ -4,6 +4,7 @@ import ContactList from "./ContactList";
 import Form from "./Form";
 import Filter from "./Filter";
 import useLocalStorage from "hooks/hooks";
+import PropTypes from 'prop-types';
 
 
  export function App() {
@@ -87,3 +88,13 @@ const changeFilter = e => {
   );
   }
  
+
+  App.propTypes = {
+  
+  changeFilter: PropTypes.func,
+    deleteContact: PropTypes.func,
+    getVisisbleContacts: PropTypes.func,
+    addContact: PropTypes.func,
+  
+
+}
