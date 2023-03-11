@@ -8,10 +8,6 @@ export default function Form ({onSubmit}) {
  
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
-  const [state, setState] = useState({
-    name: '',
-   number: ''
-  })
 
 
     const handleNameChange = e => {
