@@ -89,8 +89,7 @@ export default function Form ({onSubmit}) {
 
 Form.propTypes = {
   
-  onChange: PropTypes.func,
-  onSubmit: PropTypes.func,
-  value:  PropTypes.string,
+  handleNameChange: PropTypes.func,
+  handleSubmit: PropTypes.func,
 
 }
