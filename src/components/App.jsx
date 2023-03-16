@@ -4,7 +4,7 @@ import ContactList from "./ContactList";
 import Form from "./Form";
 import Filter from "./Filter";
 import useLocalStorage from "hooks/hooks";
-import PropTypes from 'prop-types';
+
 
 
  export function App() {
