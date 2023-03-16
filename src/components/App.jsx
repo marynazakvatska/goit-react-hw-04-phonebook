@@ -89,12 +89,3 @@ const changeFilter = e => {
   }
  
 
-  App.propTypes = {
-  
-  changeFilter: PropTypes.func,
-    deleteContact: PropTypes.func,
-    getVisisbleContacts: PropTypes.func,
-    addContact: PropTypes.func,
-  
-
-}
